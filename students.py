@@ -281,12 +281,16 @@ while choice != "4":
         choice2 = input("Select a number: ")
         if choice2 == "1":
             get_students()
+            print()
         elif choice2 == "2":
             add_student()
+            print()
         elif choice2 == "3":
             update_student()
+            print()
         elif choice2 == "4":
             delete_student()
+            print()
     elif choice == "2":
         print()
         print("1. Get All Classes")
@@ -296,12 +300,16 @@ while choice != "4":
         choice2 = input("Select a number: ")
         if choice2 == "1":
             get_classes()
+            print()
         elif choice2 == "2":
             add_class()
+            print()
         elif choice2 == "3":
             update_class()
+            print()
         elif choice2 == "4":
             delete_class()
+            print()
     elif choice == "3":
         print()
         print("1. Get Student Average Grade")
@@ -312,14 +320,19 @@ while choice != "4":
         choice2 = input("Select a number: ")
         if choice2 == "1":
             get_student_average_grade()
+            print()
         elif choice2 == "2":
             get_student_grades()
+            print()
         elif choice2 == "3":
             add_student_grade()
+            print()
         elif choice2 == "4":
             update_student_grade()
+            print()
         elif choice2 == "5":
             delete_student_grade()
+            print()
     elif choice != "4":
         print()
         print("Please choose a number between 1-4.")
