@@ -5,7 +5,7 @@ This is an application written with Python that stores the grades of the student
 The software is designed to provide an easy-to-use interface where users can add, view, update, and delete different things like grades, students, and classes. The integration with the SQL relational database ensures data integrity and supports complex queries to handle tasks like calculating average grades or retrieving specific student records. If you run "students.py" on a folder it will create a "students.db" database in the same folder. All the changes you made will be stored on that "student.db", so is really important that you don't delete it if you want to store some students grades.
 
 You can watch a demo of my software here:
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=HJytq7Z45bQ)
 
 # Relational Database
 
